@@ -1,6 +1,6 @@
 import { Box, Heading, Flex, Progress } from '@chakra-ui/react';
 
-export function Loading(): JSX.Element {
+export const Loading = () => {
   return (
     <Flex
       justifyContent="center"
